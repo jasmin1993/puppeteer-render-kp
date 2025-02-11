@@ -46,7 +46,7 @@ async function fetchAds(url) {
     try {
         browser = await puppeteer.launch({ 
 
-            //headless: true
+            headless: true
 
             args: [
                 "--disable-setuid-sandbox",
